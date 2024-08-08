@@ -1,9 +1,9 @@
 from fastapi import APIRouter, BackgroundTasks
 from uuid import uuid4
-from utils.battle_logic import battle
-from utils.data_loader import load_data
-from utils.spell_checker import correct_spelling
-from state import battles
+from app.utils.battle_logic import battle
+from app.utils.data_loader import load_data
+from app.utils.spell_checker import correct_spelling
+from app.state import battles
 
 router = APIRouter()
 

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api import battle, status, listing
+from app.api import battle, status, listing
 
 app = FastAPI(title="Pokemon Battle", version="0.0.1")
 

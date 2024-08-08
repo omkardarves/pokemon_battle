@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from state import battles
+from app.state import battles
 import math
 
 router = APIRouter()

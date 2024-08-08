@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from utils.data_loader import load_data
+from app.utils.data_loader import load_data
 import math
 
 router = APIRouter()
